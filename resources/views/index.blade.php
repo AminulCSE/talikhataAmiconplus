@@ -1,398 +1,190 @@
 @extends('layouts.app')
-        <!-- /#header -->
-        <!-- Content -->
+
 @section('content')
-        <div class="content">
-            <!-- Animated -->
-            <div class="animated fadeIn">
-                <!-- Widgets  -->
-                <div class="row">
-                    <div class="col-lg-3 col-md-6">
-                        <div class="card">
-                            <div class="card-body">
-                                <div class="stat-widget-five">
-                                    <div class="stat-icon dib flat-color-1">
-                                        <i class="pe-7s-cash"></i>
-                                    </div>
-                                    <div class="stat-content">
-                                        <div class="text-left dib">
-                                            <div class="stat-text">Tk:<span class="count">23569</span></div>
-                                            <div class="stat-heading">Total Cache</div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+<div class="pcoded-content">
+    <div class="pcoded-inner-content">
+        <div class="main-body">
+            <div class="page-wrapper">
 
-                    <div class="col-lg-3 col-md-6">
-                        <div class="card">
-                            <div class="card-body">
-                                <div class="stat-widget-five">
-                                    <div class="stat-icon dib flat-color-2">
-                                        <i class="pe-7s-cart"></i>
-                                    </div>
-                                    <div class="stat-content">
-                                        <div class="text-left dib">
-                                            <div class="stat-text">Tk:<span class="count">3435</span></div>
-                                            <div class="stat-heading">Total Sell</div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6">
-                        <div class="card">
-                            <div class="card-body">
-                                <div class="stat-widget-five">
-                                    <div class="stat-icon dib flat-color-3">
-                                        <i class="pe-7s-browser"></i>
-                                    </div>
-                                    <div class="stat-content">
-                                        <div class="text-left dib">
-                                            <div class="stat-text"><span class="count">349</span></div>
-                                            <div class="stat-heading">Total Cost</div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6">
-                        <div class="card">
-                            <div class="card-body">
-                                <div class="stat-widget-five">
-                                    <div class="stat-icon dib flat-color-4">
-                                        <i class="pe-7s-users"></i>
-                                    </div>
-                                    <div class="stat-content">
-                                        <div class="text-left dib">
-                                            <div class="stat-text"><span class="count">2986</span></div>
-                                            <div class="stat-heading">Pending orders</div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- /Widgets -->
-                <div class="clearfix"></div>
-                <!-- Orders -->
-                <div class="orders">
+                <div class="page-body">
                     <div class="row">
-                        <div class="col-xl-8">
-                            <div class="card">
-                                <div class="card-body">
-                                    <h4 class="box-title">Orders </h4>
-                                </div>
-                                <div class="card-body--">
-                                    <div class="table-stats order-table ov-h">
-                                        <table class="table ">
-                                            <thead>
-                                                <tr>
-                                                    <th class="serial">#</th>
-                                                    <th class="avatar">Avatar</th>
-                                                    <th>ID</th>
-                                                    <th>Name</th>
-                                                    <th>Product</th>
-                                                    <th>Quantity</th>
-                                                    <th>Status</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                <tr>
-                                                    <td class="serial">1.</td>
-                                                    <td class="avatar">
-                                                        <div class="round-img">
-                                                            <a href="#"><img class="rounded-circle" src="images/avatar/1.jpg" alt=""></a>
-                                                        </div>
-                                                    </td>
-                                                    <td> #5469 </td>
-                                                    <td>  <span class="name">Louis Stanley</span> </td>
-                                                    <td> <span class="product">iMax</span> </td>
-                                                    <td><span class="count">231</span></td>
-                                                    <td>
-                                                        <span class="badge badge-complete">Complete</span>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td class="serial">2.</td>
-                                                    <td class="avatar">
-                                                        <div class="round-img">
-                                                            <a href="#"><img class="rounded-circle" src="images/avatar/2.jpg" alt=""></a>
-                                                        </div>
-                                                    </td>
-                                                    <td> #5468 </td>
-                                                    <td>  <span class="name">Gregory Dixon</span> </td>
-                                                    <td> <span class="product">iPad</span> </td>
-                                                    <td><span class="count">250</span></td>
-                                                    <td>
-                                                        <span class="badge badge-complete">Complete</span>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td class="serial">3.</td>
-                                                    <td class="avatar">
-                                                        <div class="round-img">
-                                                            <a href="#"><img class="rounded-circle" src="images/avatar/3.jpg" alt=""></a>
-                                                        </div>
-                                                    </td>
-                                                    <td> #5467 </td>
-                                                    <td>  <span class="name">Catherine Dixon</span> </td>
-                                                    <td> <span class="product">SSD</span> </td>
-                                                    <td><span class="count">250</span></td>
-                                                    <td>
-                                                        <span class="badge badge-complete">Complete</span>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td class="serial">4.</td>
-                                                    <td class="avatar">
-                                                        <div class="round-img">
-                                                            <a href="#"><img class="rounded-circle" src="images/avatar/4.jpg" alt=""></a>
-                                                        </div>
-                                                    </td>
-                                                    <td> #5466 </td>
-                                                    <td>  <span class="name">Mary Silva</span> </td>
-                                                    <td> <span class="product">Magic Mouse</span> </td>
-                                                    <td><span class="count">250</span></td>
-                                                    <td>
-                                                        <span class="badge badge-pending">Pending</span>
-                                                    </td>
-                                                </tr>
-                                                <tr class=" pb-0">
-                                                    <td class="serial">5.</td>
-                                                    <td class="avatar pb-0">
-                                                        <div class="round-img">
-                                                            <a href="#"><img class="rounded-circle" src="images/avatar/6.jpg" alt=""></a>
-                                                        </div>
-                                                    </td>
-                                                    <td> #5465 </td>
-                                                    <td>  <span class="name">Johnny Stephens</span> </td>
-                                                    <td> <span class="product">Monitor</span> </td>
-                                                    <td><span class="count">250</span></td>
-                                                    <td>
-                                                        <span class="badge badge-complete">Complete</span>
-                                                    </td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                    </div> <!-- /.table-stats -->
-                                </div>
-                            </div> <!-- /.card -->
-                        </div>  <!-- /.col-lg-8 -->
-
-                        <div class="col-xl-4">
-                            <div class="row">
-                                <div class="col-lg-6 col-xl-12">
-                                    <div class="card br-0">
-                                        <div class="card-body">
-                                            <div class="chart-container ov-h">
-                                                <div id="flotPie1" class="float-chart"></div>
-                                            </div>
+                        <!-- task, page, download counter  start -->
+                        <div class="col-xl-3 col-md-6">
+                            <div class="card bg-c-yellow update-card">
+                                <div class="card-block">
+                                    <div class="row align-items-end">
+                                        <div class="col-8">
+                                            <h4 class="text-white">$30200</h4>
+                                            <h6 class="text-white m-b-0">All Earnings</h6>
                                         </div>
-                                    </div><!-- /.card -->
-                                </div>
-
-                                <div class="col-lg-6 col-xl-12">
-                                    <div class="card bg-flat-color-3  ">
-                                        <div class="card-body">
-                                            <h4 class="card-title m-0  white-color ">August 2018</h4>
-                                        </div>
-                                         <div class="card-body">
-                                             <div id="flotLine5" class="flot-line"></div>
-                                         </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> <!-- /.col-md-4 -->
-                    </div>
-                </div>
-                <!-- /.orders -->
-                <!-- To Do and Live Chat -->
-                <div class="row">
-                    <div class="col-lg-6">
-                        <div class="card">
-                            <div class="card-body">
-                                <h4 class="card-title box-title">To Do List</h4>
-                                <div class="card-content">
-                                    <div class="todo-list">
-                                        <div class="tdl-holder">
-                                            <div class="tdl-content">
-                                                <ul>
-                                                    <li>
-                                                        <label>
-                                                            <input type="checkbox"><i class="check-box"></i><span>Conveniently fabricate interactive technology for ....</span>
-                                                            <a href='#' class="fa fa-times"></a>
-                                                            <a href='#' class="fa fa-pencil"></a>
-                                                            <a href='#' class="fa fa-check"></a>
-                                                        </label>
-                                                    </li>
-                                                    <li>
-                                                        <label>
-                                                            <input type="checkbox"><i class="check-box"></i><span>Creating component page</span>
-                                                            <a href='#' class="fa fa-times"></a>
-                                                            <a href='#' class="fa fa-pencil"></a>
-                                                            <a href='#' class="fa fa-check"></a>
-                                                        </label>
-                                                    </li>
-                                                    <li>
-                                                        <label>
-                                                            <input type="checkbox" checked><i class="check-box"></i><span>Follow back those who follow you</span>
-                                                            <a href='#' class="fa fa-times"></a>
-                                                            <a href='#' class="fa fa-pencil"></a>
-                                                            <a href='#' class="fa fa-check"></a>
-                                                        </label>
-                                                    </li>
-                                                    <li>
-                                                        <label>
-                                                            <input type="checkbox" checked><i class="check-box"></i><span>Design One page theme</span>
-                                                            <a href='#' class="fa fa-times"></a>
-                                                            <a href='#' class="fa fa-pencil"></a>
-                                                            <a href='#' class="fa fa-check"></a>
-                                                        </label>
-                                                    </li>
-
-                                                    <li>
-                                                        <label>
-                                                            <input type="checkbox" checked><i class="check-box"></i><span>Creating component page</span>
-                                                            <a href='#' class="fa fa-times"></a>
-                                                            <a href='#' class="fa fa-pencil"></a>
-                                                            <a href='#' class="fa fa-check"></a>
-                                                        </label>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div> <!-- /.todo-list -->
-                                </div>
-                            </div> <!-- /.card-body -->
-                        </div><!-- /.card -->
-                    </div>
-
-                    <div class="col-lg-6">
-                        <div class="card">
-                            <div class="card-body">
-                                <h4 class="card-title box-title">Live Chat</h4>
-                                <div class="card-content">
-                                    <div class="messenger-box">
-                                        <ul>
-                                            <li>
-                                                <div class="msg-received msg-container">
-                                                    <div class="avatar">
-                                                       <img src="images/avatar/64-1.jpg" alt="">
-                                                       <div class="send-time">11.11 am</div>
-                                                    </div>
-                                                    <div class="msg-box">
-                                                        <div class="inner-box">
-                                                            <div class="name">
-                                                                John Doe
-                                                            </div>
-                                                            <div class="meg">
-                                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis sunt placeat velit ad reiciendis ipsam
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div><!-- /.msg-received -->
-                                            </li>
-                                            <li>
-                                                <div class="msg-sent msg-container">
-                                                    <div class="avatar">
-                                                       <img src="images/avatar/64-2.jpg" alt="">
-                                                       <div class="send-time">11.11 am</div>
-                                                    </div>
-                                                    <div class="msg-box">
-                                                        <div class="inner-box">
-                                                            <div class="name">
-                                                                John Doe
-                                                            </div>
-                                                            <div class="meg">
-                                                                Hay how are you doing?
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div><!-- /.msg-sent -->
-                                            </li>
-                                        </ul>
-                                        <div class="send-mgs">
-                                            <div class="yourmsg">
-                                                <input class="form-control" type="text">
-                                            </div>
-                                            <button class="btn msg-send-btn">
-                                                <i class="pe-7s-paper-plane"></i>
-                                            </button>
-                                        </div>
-                                    </div><!-- /.messenger-box -->
-                                </div>
-                            </div> <!-- /.card-body -->
-                        </div><!-- /.card -->
-                    </div>
-                </div>
-                <!-- /To Do and Live Chat -->
-
-                <!-- Modal - Calendar - Add New Event -->
-                <div class="modal fade none-border" id="event-modal">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                                <h4 class="modal-title"><strong>Add New Event</strong></h4>
-                            </div>
-                            <div class="modal-body"></div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-default waves-effect" data-dismiss="modal">Close</button>
-                                <button type="button" class="btn btn-success save-event waves-effect waves-light">Create event</button>
-                                <button type="button" class="btn btn-danger delete-event waves-effect waves-light" data-dismiss="modal">Delete</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- /#event-modal -->
-                <!-- Modal - Calendar - Add Category -->
-                <div class="modal fade none-border" id="add-category">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                                <h4 class="modal-title"><strong>Add a category </strong></h4>
-                            </div>
-                            <div class="modal-body">
-                                <form>
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <label class="control-label">Category Name</label>
-                                            <input class="form-control form-white" placeholder="Enter name" type="text" name="category-name"/>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <label class="control-label">Choose Category Color</label>
-                                            <select class="form-control form-white" data-placeholder="Choose a color..." name="category-color">
-                                                <option value="success">Success</option>
-                                                <option value="danger">Danger</option>
-                                                <option value="info">Info</option>
-                                                <option value="pink">Pink</option>
-                                                <option value="primary">Primary</option>
-                                                <option value="warning">Warning</option>
-                                            </select>
+                                        <div class="col-4 text-right">
+                                            <canvas id="update-chart-1" height="50"></canvas>
                                         </div>
                                     </div>
-                                </form>
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-default waves-effect" data-dismiss="modal">Close</button>
-                                <button type="button" class="btn btn-danger waves-effect waves-light save-category" data-dismiss="modal">Save</button>
+                                </div>
+                                <div class="card-footer">
+                                    <p class="text-white m-b-0"><i class="feather icon-clock text-white f-14 m-r-10"></i>update : 2:15 am</p>
+                                </div>
                             </div>
                         </div>
+                        <div class="col-xl-3 col-md-6">
+                            <div class="card bg-c-green update-card">
+                                <div class="card-block">
+                                    <div class="row align-items-end">
+                                        <div class="col-8">
+                                            <h4 class="text-white">290+</h4>
+                                            <h6 class="text-white m-b-0">Page Views</h6>
+                                        </div>
+                                        <div class="col-4 text-right">
+                                            <canvas id="update-chart-2" height="50"></canvas>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <p class="text-white m-b-0"><i class="feather icon-clock text-white f-14 m-r-10"></i>update : 2:15 am</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-md-6">
+                            <div class="card bg-c-pink update-card">
+                                <div class="card-block">
+                                    <div class="row align-items-end">
+                                        <div class="col-8">
+                                            <h4 class="text-white">145</h4>
+                                            <h6 class="text-white m-b-0">Task Completed</h6>
+                                        </div>
+                                        <div class="col-4 text-right">
+                                            <canvas id="update-chart-3" height="50"></canvas>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <p class="text-white m-b-0"><i class="feather icon-clock text-white f-14 m-r-10"></i>update : 2:15 am</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-md-6">
+                            <div class="card bg-c-lite-green update-card">
+                                <div class="card-block">
+                                    <div class="row align-items-end">
+                                        <div class="col-8">
+                                            <h4 class="text-white">500</h4>
+                                            <h6 class="text-white m-b-0">Downloads</h6>
+                                        </div>
+                                        <div class="col-4 text-right">
+                                            <canvas id="update-chart-4" height="50"></canvas>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <p class="text-white m-b-0"><i class="feather icon-clock text-white f-14 m-r-10"></i>update : 2:15 am</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- task, page, download counter  end -->
+
+
+                        <div class="col-xl-3 col-md-12">
+                            <div class="card user-card2">
+                                <div class="card-block text-center">
+                                    <h6 class="m-b-15">Project Risk</h6>
+                                    <div class="risk-rate">
+                                        <span><b>5</b></span>
+                                    </div>
+                                    <h6 class="m-b-10 m-t-10">Balanced</h6>
+                                    <a href="#!" class="text-c-yellow b-b-warning">Change Your Risk</a>
+                                    <div class="row justify-content-center m-t-10 b-t-default m-l-0 m-r-0">
+                                        <div class="col m-t-15 b-r-default">
+                                            <h6 class="text-muted">Nr</h6>
+                                            <h6>AWS 2455</h6>
+                                        </div>
+                                        <div class="col m-t-15">
+                                            <h6 class="text-muted">Created</h6>
+                                            <h6>30th Sep</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="btn btn-warning btn-block p-t-15 p-b-15">Download Overall Report</button>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3 col-md-12">
+                            <div class="card user-card2">
+                                <div class="card-block text-center">
+                                    <h6 class="m-b-15">Project Risk</h6>
+                                    <div class="risk-rate">
+                                        <span><b>5</b></span>
+                                    </div>
+                                    <h6 class="m-b-10 m-t-10">Balanced</h6>
+                                    <a href="#!" class="text-c-yellow b-b-warning">Change Your Risk</a>
+                                    <div class="row justify-content-center m-t-10 b-t-default m-l-0 m-r-0">
+                                        <div class="col m-t-15 b-r-default">
+                                            <h6 class="text-muted">Nr</h6>
+                                            <h6>AWS 2455</h6>
+                                        </div>
+                                        <div class="col m-t-15">
+                                            <h6 class="text-muted">Created</h6>
+                                            <h6>30th Sep</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="btn btn-warning btn-block p-t-15 p-b-15">Download Overall Report</button>
+                            </div>
+                        </div>
+
+
+                        <div class="col-xl-3 col-md-12">
+                            <div class="card user-card2">
+                                <div class="card-block text-center">
+                                    <h6 class="m-b-15">Project Risk</h6>
+                                    <div class="risk-rate">
+                                        <span><b>5</b></span>
+                                    </div>
+                                    <h6 class="m-b-10 m-t-10">Balanced</h6>
+                                    <a href="#!" class="text-c-yellow b-b-warning">Change Your Risk</a>
+                                    <div class="row justify-content-center m-t-10 b-t-default m-l-0 m-r-0">
+                                        <div class="col m-t-15 b-r-default">
+                                            <h6 class="text-muted">Nr</h6>
+                                            <h6>AWS 2455</h6>
+                                        </div>
+                                        <div class="col m-t-15">
+                                            <h6 class="text-muted">Created</h6>
+                                            <h6>30th Sep</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="btn btn-warning btn-block p-t-15 p-b-15">Download Overall Report</button>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3 col-md-12">
+                            <div class="card user-card2">
+                                <div class="card-block text-center">
+                                    <h6 class="m-b-15">Project Risk</h6>
+                                    <div class="risk-rate">
+                                        <span><b>5</b></span>
+                                    </div>
+                                    <h6 class="m-b-10 m-t-10">Balanced</h6>
+                                    <a href="#!" class="text-c-yellow b-b-warning">Change Your Risk</a>
+                                    <div class="row justify-content-center m-t-10 b-t-default m-l-0 m-r-0">
+                                        <div class="col m-t-15 b-r-default">
+                                            <h6 class="text-muted">Nr</h6>
+                                            <h6>AWS 2455</h6>
+                                        </div>
+                                        <div class="col m-t-15">
+                                            <h6 class="text-muted">Created</h6>
+                                            <h6>30th Sep</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="btn btn-warning btn-block p-t-15 p-b-15">Download Overall Report</button>
+                            </div>
+                        </div>
+                        <!--  sale analytics end -->
                     </div>
                 </div>
-            <!-- /#add-category -->
             </div>
-            <!-- .animated -->
         </div>
-        <!-- /.content -->
-        <div class="clearfix"></div>
-        <!-- Footer -->
-@endsection()
+    </div>
+</div>
+@endsection
